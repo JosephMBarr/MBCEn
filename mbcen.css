@@ -1,0 +1,138 @@
+.time_posted, .assig_container{
+	font-family: "roboto";
+}
+.avatar, .avatar-tiny-image, .avatar-margin{
+	border-radius:0px !important;
+	border:none !important;
+	box-shadow:2px 2px 30px #837E7C !important;
+}
+#nav-sections{
+	position: fixed !important;
+}
+#drop-notifications:after {
+   content: none;
+}
+#drop-notifications:before{
+	content:none;
+}
+.time_posted{
+	display:inline-block;
+	position:absolute;
+	z-index:1234567;
+	background-color:#ffffff;
+	box-shadow:1px 1px 3px #837E7C;
+	padding:5px;
+	border: 2px solid #D1D0CE;
+	border-radius: 5px;
+}
+.toShow, .toShowComments{
+	text-align:center;
+}
+.popout{
+	list-style-type:none;
+	color:#54585A;
+}
+.popout li{
+	padding:2px;
+}
+.popout_container{
+	position:absolute;
+	margin-left:100%;
+	width:200px;
+	background-color:#ffffff;
+	box-shadow:1px 1px 3px #837E7C;
+	border: 2px solid #D1D0CE;
+	border-radius: 5px;
+	display:none;
+	margin-top:-10px;
+}
+.popout_container .popout a li{
+	color:#595959 !important;
+}
+.popout_container *{
+	margin:0;
+	vertical-align:middle;
+}
+.material{
+	box-shadow:0px 10px 20px -2px #666362;
+}
+.time{
+	float:right !important;
+}
+.evening{
+	background-color:#34282C !important;
+	overflow:auto;
+}
+.night{
+	background-color:black !important;
+}
+.white{
+	color:white !important;
+}
+#activity_patch{
+	position:fixed;
+	height:100vh;
+	top:0vh;
+}
+.brand{
+	margin-top:-5px;
+}
+#schoolwork_patch{
+	height:100vh;
+	position:absolute;
+	top:0;
+}
+#notif_popout{
+	position:absolute;
+}
+.white_back{
+	background-color:white;
+}
+.editable{
+	border-right: 2px solid #4EE2EC;
+}
+.avatar-tiny-image{
+	position:absolute !important;
+}
+input, textarea{
+	border-radius:0px !important;
+}
+#volumeToggle{
+	margin-top:2%;
+	
+}
+*::selection{
+	background:rgba(255,130,0,0.25);
+}
+.class_wrap{
+	position:absolute;
+	z-index:999999;
+	width:800px;
+	overflow:hidden;
+}
+.class_pop li{
+	padding:15px 0px;
+	width:11%;
+	font-size:12px;
+	display:inline;
+	position:fixed;
+	z-index:1;
+	background-color:white !important;
+	color:#0078A3;
+}
+@-webkit-keyframes expand{
+	from{width:11%;}
+	to{width:25%;}
+}
+.class_pop li:hover{
+	-webkit-animation: expand .25s linear 0s 1;
+	-webkit-animation-fill-mode:forwards;
+}
+.shrink{
+	-webkit-animation: expand .25s linear 0s 1 reverse;
+	-webkit-animation-fill-mode:forwards;
+}
+.class_wrap{
+	width:300px;
+	height:42px;
+}
